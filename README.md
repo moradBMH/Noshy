@@ -14,7 +14,7 @@ Noshy is a Python-based application that generates personalized meal plans tailo
 
 ## Why Noshy is Useful
 
-Noshy is designed for users who want to balance personal health and **environmental responsibility. By providing meal suggestions that account for both nutritional value and eco-friendliness, it helps reduce your carbon footprint while maintaining a healthy diet.
+Noshy is designed for users who want to balance personal health and environmental responsibility. By providing meal suggestions that account for both nutritional value and eco-friendliness, it helps reduce your carbon footprint while maintaining a healthy diet.
 
 ## Getting Started
 
@@ -28,3 +28,28 @@ You will need **Python** installed on your machine. The required libraries can b
    ```bash
    git clone https://github.com/moradBMH/Noshy.git
    cd Noshy
+2. **Install Dependencies**:
+   ```bash
+   pip install -r requirements.txt
+3. **Run the application**:
+   ```bash
+   python main.py
+
+### How to use Noshy 
+
+1. **Enter Personal Data**: Input your gender, height, and weight to calculate your daily energy needs.
+2. **Generate Meals**: Get meal recommendations based on your energy requirements and environmental impact.
+3. **Visualize Data**: View histograms comparing your actual intake to your nutritional needs.
+
+### File structure
+
+- **main.py**: Entry point for running the application.
+- **gui.py**: Handles the graphical user interface.
+- **usermodule.py**: Manages user-specific data like gender, height, and weight.
+- **nutritionDBmodule.py**: Loads and manages the nutritional data.
+- **envDBmodule.py**: Handles the environmental impact data for different foods.
+  
+### Maintainers and contributors 
+
+This project is maintained by Morad Bel Melih. Contributions are welcome! Fork the repo, submit pull requests, or raise issues.
+
